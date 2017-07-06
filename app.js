@@ -40,7 +40,6 @@ function initApp(config, callback) {
 			/* eslint camelcase: 'off' */
 			MongoClient.connect(config.database, function(error, db) {
 				app.db = db;
-				db.close();
 				next(error);
 			});
 		},
