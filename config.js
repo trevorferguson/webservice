@@ -17,6 +17,8 @@
 var fs = require('fs');
 var jsonPath = './config/' + (process.env.NODE_ENV || 'development') + '.json';
 
+console.log(jsonPath);
+
 if (fs.existsSync(jsonPath)) {
 	module.exports = require(jsonPath);
 } else {
