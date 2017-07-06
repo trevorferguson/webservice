@@ -1,6 +1,6 @@
 {
-	"database": "mongodb://localhost/pa11y-webservice-dev",
-	"host": "0.0.0.0",
-	"port": 3000,
-	"cron": "0 30 0 * * *"
+	"database": "mongodb://p1tallymdb:WG5kukRwG3aAvcStBDXMEoKFoNUUgAmTWxIGWtpUpuLoFWGFPnJFe9urfklpFZLgM5yE9gCvHrKE82N4H4zuLw==@p1tallydmb.documents.azure.com:10255/mean?ssl=true&sslverifycertificate=false",
+	"host": "13.85.70.250",
+	"port": 8080,
+	"cron": "0 * * * * *"
 }
