@@ -1,5 +1,5 @@
 {
-	"database": "mongodb://p1tallymdb:WG5kukRwG3aAvcStBDXMEoKFoNUUgAmTWxIGWtpUpuLoFWGFPnJFe9urfklpFZLgM5yE9gCvHrKE82N4H4zuLw==@p1tallydmb.documents.azure.com:10255/mean?ssl=true&sslverifycertificate=false",
+	"database": "mongodb://admin:dangDudePier1@13.85.70.250:3000",
 	"host": "0.0.0.0",
 	"port": 8080,
 	"cron": "0 * * * * *"
