@@ -38,7 +38,7 @@ function initApp(config, callback) {
 
 		function(next) {
 			/* eslint camelcase: 'off' */
-			MongoClient.connect(config.database, function(error, db) {
+			MongoClient.connect(config.database, {server: {auto_reconnect: false}}, function(error, db) {
 				app.db = db;
 				next(error);
 			});
